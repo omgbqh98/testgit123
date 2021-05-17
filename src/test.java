@@ -20,6 +20,6 @@ public class test {
 //        System.out.println(result);
 
         Iterator<String> iterator = collection.iterator();
-
+//okokok
     }
 }
