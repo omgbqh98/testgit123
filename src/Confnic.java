@@ -1,6 +1,5 @@
 public class Confnic {
-//    cx dc day
-//    ok luon
-//    lan 1
+    public static void main(String[] args) {
+        
+    }
 }
-//dfgdfgfsdfdsf
