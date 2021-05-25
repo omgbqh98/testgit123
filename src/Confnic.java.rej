@@ -1,9 +1,8 @@
 diff a/src/Confnic.java b/src/Confnic.java	(rejected hunks)
-@@ -1,5 +1,6 @@
- public class Confnic {
- //    cx dc day
- //    ok luon
-+//    lan 1
+@@ -2,5 +2,6 @@
+     public static void main(String[] args) {
+ //        /chan qaiasdfasfs
+         //sdfdf
++        //sdfdsf
+     }
  }
- //dfgdfgfsdfdsf
-\ No newline at end of file
