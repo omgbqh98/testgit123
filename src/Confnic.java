@@ -9,5 +9,7 @@ public class Confnic {
         arr.removeIf(h -> h.equals("1") || h.equals("2"));
         System.out.println(arr);
 //        SingletonSampleHolder.INSTANCE
+//        /chan qaiasdfasfs
+        //22222
     }
 }
