@@ -1,27 +1,21 @@
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
+import static java.lang.System.*;
+
+import java.time.Duration;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class test {
     public static void main(String[] args) {
-        List<String> collection = Arrays.asList("huynh", "98", "ok chua");
+        Instant start;
+        start = Instant.parse("2020-01-04T05:10:56.392Z");
+        Instant end;
+        end = Instant.parse("2020-01-04T05:10:57.392Z");
 
-        List<Integer> integers = Arrays.asList(1,2,3,4,5,6,6,5,3,2,2);
+        Duration duration;
+        duration = Duration.between(start, end);
 
-        integers.stream().sorted().limit(4).forEach(System.out::println);
+        out.println(duration);
 
-//        collection.stream().forEach(s -> System.out.println(s));
-
-//        List<Integer> stream = collection.stream().collect(Collectors.toList());
-
-//        System.out.println(result);
-
-        Iterator<String> iterator = collection.iterator();
-//okokokokok
     }
 }
-
-//merge master
